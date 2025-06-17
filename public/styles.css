@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #141414;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #000;
+}
+
+.upload-button {
+  background: #e50914;
+  color: #fff;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#video-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.video-card {
+  background: #222;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.video-card video, .video-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.caption {
+  margin-top: 8px;
+  font-size: 14px;
+}
